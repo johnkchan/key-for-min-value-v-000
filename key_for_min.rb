@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
     
     if set == false
       min = value
+      lowest = name
       set = true
     end
     
