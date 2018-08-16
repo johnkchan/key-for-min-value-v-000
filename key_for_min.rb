@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   set = false
   name_hash.each do |name, value|
     
-    if !(set)
+    if set == false
       min = hash[name]
       set = true
     end
